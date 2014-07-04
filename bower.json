@@ -1,0 +1,23 @@
+{
+  "name": "biskoto",
+  "version": "0.0.1",
+  "homepage": "https://github.com/skroutz/biskoto",
+  "authors": [
+    "Dimitris Zorbas <zorbash@skroutz.gr>"
+  ],
+  "description": "Tiny cookie manipulation library",
+  "main": "coffee/biskoto.coffee",
+  "keywords": [
+    "cookies"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "spec"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}
