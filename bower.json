@@ -6,17 +6,33 @@
     "Dimitris Zorbas <zorbash@skroutz.gr>"
   ],
   "description": "Tiny cookie manipulation library",
-  "main": "coffee/biskoto.coffee",
+  "main": "dist/biskoto.js",
   "keywords": [
     "cookies"
   ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skroutz/biskoto.git"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "spec"
+    "spec",
+    "coffee",
+    "karma.conf.js",
+    "test-main.js",
+    "package.json",
+    "Gruntfile.js"
   ],
+  "dependencies": {
+    "jquery": "~1.10"
+  },
   "devDependencies": {
     "jquery": "~2.1.1"
   }
