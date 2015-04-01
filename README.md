@@ -6,5 +6,21 @@ Tiny cookie manipulation library
 
 - jQuery
 
+# Development
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the tests
+
+```bash
+npm test
+```
+
 # LICENSE
-MIT
+
+Copyright (c) 2015 Skroutz S.A, MIT Licence. 
+See [LICENSE.md](https://github.com/skroutz/biskoto/blob/master/LICENSE.md) for further details.
