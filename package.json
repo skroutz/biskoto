@@ -1,6 +1,6 @@
 {
   "name": "biskoto",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Tiny cookie manipulation library",
   "main": "biskoto.js",
   "scripts": {
@@ -19,24 +19,24 @@
     "url": "https://github.com/skroutz/biskoto/issues"
   },
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "0.4.0",
+    "grunt-bump": "0.0.14",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "^0.8.3",
     "karma": "^0.12.16",
     "karma-cli": "0.0.4",
-    "mocha": "^1.20.1",
-    "karma-mocha": "^0.1.4",
-    "requirejs": "^2.1.14",
-    "karma-requirejs": "^0.2.2",
-    "karma-phantomjs-launcher": "^0.1.4",
     "karma-coffee-preprocessor": "^0.2.1",
+    "karma-mocha": "^0.1.4",
     "karma-mocha-reporter": "^0.2.6",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2",
     "karma-sinon-chai": "^0.2.0",
-    "grunt-cli": "^0.1.13",
-    "grunt": "^0.4.5",
-    "grunt-contrib-coffee": "^0.10.1",
-    "grunt-bower-task": "0.4.0",
-    "grunt-contrib-watch": "^0.6.1",
     "load-grunt-tasks": "^0.6.0",
-    "grunt-bump": "0.0.14",
-    "grunt-contrib-uglify": "^0.5.0",
-    "grunt-karma": "^0.8.3"
+    "mocha": "^1.20.1",
+    "requirejs": "^2.1.14"
   }
 }
