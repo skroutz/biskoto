@@ -2,7 +2,7 @@
   "name": "biskoto",
   "version": "1.0.1",
   "description": "Tiny cookie manipulation library",
-  "main": "biskoto.js",
+  "main": "dist/biskoto.js",
   "scripts": {
     "test": "grunt test"
   },
