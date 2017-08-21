@@ -1,6 +1,6 @@
 {
-  "name": "biskoto",
-  "version": "1.0.3",
+  "name": "@skroutz/biskoto",
+  "version": "1.0.4",
   "description": "Tiny cookie manipulation library",
   "main": "dist/biskoto.js",
   "scripts": {
@@ -38,5 +38,7 @@
     "load-grunt-tasks": "^0.6.0",
     "mocha": "^1.20.1",
     "requirejs": "^2.1.14"
-  }
+  },
+  "homepage": "https://github.com/skroutz/biskoto#readme",
+  "dependencies": {}
 }
