@@ -107,7 +107,7 @@ Biskoto = (function() {
   Gets a cookie value by name
   @param [String] name The name of the cookie
   @param [Object] options Settings to determine how the cookie
-  string is processed. Currenlty only decode, which when set to false
+  string is processed. Currently only decode, which when set to false
   does not url decode the cookie value.
   @return [String|Object|Array|Number|null] The parsed json value of the cookie
   if decode is true else the string value of the cookie or null if it is not found
@@ -185,6 +185,6 @@ if (typeof define === 'function' && define.amd) {
   define(function() {
     return Biskoto;
   });
-} else {
+} else if (window) {
   window.Biskoto = Biskoto;
 }
