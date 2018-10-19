@@ -120,5 +120,5 @@ class Biskoto
 # Make it an AMD module if a loader is present else global
 if typeof define is 'function' && define.amd
   define -> Biskoto
-else
+else if window
   window.Biskoto = Biskoto
