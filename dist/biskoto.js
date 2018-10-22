@@ -185,6 +185,6 @@ if (typeof define === 'function' && define.amd) {
   define(function() {
     return Biskoto;
   });
-} else if (window) {
+} else if (typeof window === 'object') {
   window.Biskoto = Biskoto;
 }
